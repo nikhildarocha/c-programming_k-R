@@ -33,7 +33,7 @@ void decimal_to_hexadecimal(int decimal_number)
  
   for(int i = index -1; i >=0; i--)
   {
-    printf("%c ",arr[i]);
+    printf("%c",arr[i]);
   }
   
 }

@@ -20,7 +20,7 @@ void decimal_to_octal(int decimal_number)
  
   for(int i = index -1; i >0; i--)
   {
-    printf("The Octal number is %d\n",arr[i]);
+    printf("The Octal number is %o\n",arr[i]);
   }
   
 }
