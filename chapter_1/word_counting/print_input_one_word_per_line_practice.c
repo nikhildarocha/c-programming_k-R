@@ -15,4 +15,13 @@ int main()
         state = OUT;
       }
     }
-    else if (state == OUT) 
+    else if (state == OUT) {
+      state = IN;
+      putchar(c);
+    }
+    else
+      putchar(c);
+  }
+  
+  return 0;
+}
